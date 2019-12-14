@@ -13,11 +13,11 @@
                     <el-form-item label="城区">
                         <el-select v-model="form.proper" placeholder="请选择城区">
                             <el-option label="朝阳区" value="1"></el-option>
-                            <el-option label="东城区" value="1"></el-option>
-                            <el-option label="丰台区" value="1"></el-option>
-                            <el-option label="海淀区" value="1"></el-option>
-                            <el-option label="昌平区" value="1"></el-option>
-                            <el-option label="西城区" value="1"></el-option>
+                            <el-option label="东城区" value="2"></el-option>
+                            <el-option label="丰台区" value="3"></el-option>
+                            <el-option label="海淀区" value="4"></el-option>
+                            <el-option label="昌平区" value="5"></el-option>
+                            <el-option label="西城区" value="6"></el-option>
                         </el-select>
                     </el-form-item>
                     <el-form-item label="房间">
@@ -42,7 +42,7 @@
                         <el-select v-model="form.floors" placeholder="请选择楼层">
                             <el-option label="低层" value="0"></el-option>
                             <el-option label="中层" value="1"></el-option>
-                            <el-option label="高层" value="1"></el-option>
+                            <el-option label="高层" value="2"></el-option>
                         </el-select>
                     </el-form-item>
                     <el-form-item label="靠近地铁">

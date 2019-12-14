@@ -24,6 +24,7 @@ class Price(APIView):
             request.data['school'] = 1
         else:
             request.data['school'] = 0
+
         data = model.predict([[int(request.data['city']),int(request.data['proper']),0,0,0,0,int(request.data['floors']),int(request.data['roomnum']),int(request.data['halls']),int(request.data['area']),int(request.data['subway']),int(request.data['school'])]])
         print(request.data['subway'])
 
